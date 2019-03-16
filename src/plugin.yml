@@ -1,0 +1,37 @@
+name: SilentTeleport
+version: 1.0
+website: http://www.realhunters.de
+author: John_H_Smith
+main: me.John_H_Smith.SilentTeleport.Main
+commands:
+  silentteleport:
+    usage: /silentteleport <player>
+    description: Teleports to a player
+    permission: stp.stp
+    aliases: [stp]
+  silentteleportposition:
+    usage: /silentteleportposition <X> <Y> <Z>
+    description: Teleports to position
+    permission: stp.stppos
+    aliases: [stppos]
+  silentteleporthere:
+    usage: /silentteleporthere <player>
+    description: Teleports player to you
+    permission: stp.stphere
+    aliases: [stphere]
+permissions:
+  stp.*:
+    description: Access to SilentTeleport
+    children:
+      stp.stp: true
+      stp.stppos: true
+      stp.stphere: true
+  stp.stp:
+    description:  Teleports to a player
+    default: false
+  stp.stppos:
+    description:  Teleports to position
+    default: false
+  stp.stphere:
+    description:  Teleports player to you
+    default: false
