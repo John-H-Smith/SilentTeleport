@@ -1,6 +1,6 @@
 ## SilentTeleport
 -----------------
-A lightweight sponge plugin that lets the player teleport to others without them getting notified via chat messages.
+A lightweight spigot/bukkit plugin that lets the player teleport to others without them getting notified via chat messages.
 
 ------------
 
