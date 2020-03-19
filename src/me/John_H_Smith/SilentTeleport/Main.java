@@ -62,10 +62,11 @@ public class Main extends JavaPlugin {
 			if(cmd.getName().equalsIgnoreCase("silentteleportposition")) {
 				if(player.hasPermission("stp.stppos")) {
 					if(args.length == 3) {
+						int coordsX, coordsY, coordsZ = 0;
 						try {
-							int coordsX = Integer.parseInt(args[0]);
-							int coordsY = Integer.parseInt(args[1]);
-							int coordsZ = Integer.parseInt(args[2]);
+							coordsX = Integer.parseInt(args[0]);
+							coordsY = Integer.parseInt(args[1]);
+							coordsZ = Integer.parseInt(args[2]);
 						} catch(Exception e) {
 							player.sendMessage(ChatColor.RED + "Wrong format. Check the coordinates");
 							return true;
