@@ -15,12 +15,12 @@ public class Main extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		log.info(" by John_H_Smith aktiviert!");
+		log.info("[SilentTeleport] by John_H_Smith aktiviert!");
 	}
 	
 	@Override
 	public void onDisable() {
-		log.info(" by John_H_Smith deaktiviert!");
+		log.info("[SilentTeleport] by John_H_Smith deaktiviert!");
 	}
 	
 	
