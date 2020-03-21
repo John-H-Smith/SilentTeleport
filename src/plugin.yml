@@ -1,6 +1,6 @@
 name: SilentTeleport
 version: 1.1
-api-version: 1.12
+api-version: 1.14
 website: http://www.realhunters.de
 author: John_H_Smith
 main: me.John_H_Smith.SilentTeleport.Main
